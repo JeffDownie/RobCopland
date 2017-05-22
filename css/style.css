@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+
+body {
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.splash_img {
+  width: 100vw;
+}
