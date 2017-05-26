@@ -1,14 +1,8 @@
-// Shorthand for $( document ).ready()
-$(function() {
-    console.log( "ready!" );
-
-function myFunction() {
+function openTopNav() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-        x.className += " responsive";
+        x.className = "topnav open";
     } else {
         x.className = "topnav";
     }
 }
-
-});//end check ready
